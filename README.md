@@ -1,2 +1,2 @@
 # doraemon-pocket
-Doraemon's pocket，for leaning!
+Demo for learning Spring Cloud，MicroService，Netty，Image Recognition etc.
