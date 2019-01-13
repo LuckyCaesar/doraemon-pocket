@@ -1,0 +1,695 @@
+01:18:05,583 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+01:18:05,583 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+01:18:05,584 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/logback.xml]
+01:18:05,588 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+01:18:05,588 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/apollo-portal-1.2.0.jar!/logback.xml]
+01:18:05,588 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/apollo-adminservice-1.2.0.jar!/logback.xml]
+01:18:05,588 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/logback.xml]
+01:18:05,588 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/apollo-configservice-1.2.0.jar!/logback.xml]
+01:18:05,629 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@78076c96 - URL [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/logback.xml] is not of type file
+01:18:05,710 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+01:18:05,724 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@31ce528a - Adding [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+01:18:05,724 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@78076c96 - URL [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+01:18:05,727 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+01:18:05,727 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+01:18:05,727 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+01:18:05,735 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+01:18:05,736 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@31ce528a - Adding [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+01:18:05,736 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@78076c96 - URL [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+01:18:05,737 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+01:18:05,746 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+01:18:05,758 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:18:05,886 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1694107801 - Archive files will be limited to [10 MB] each.
+01:18:05,891 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1694107801 - Will use gz compression
+01:18:05,893 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1694107801 - Will use the pattern /var/folders/lh/tqlx1qms7xbdpmgg4tf_jvz00000gn/T//apollo-assembly.log.%d{yyyy-MM-dd}.%i for the active file
+01:18:05,897 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52e071de - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/folders/lh/tqlx1qms7xbdpmgg4tf_jvz00000gn/T//apollo-assembly.log.%d{yyyy-MM-dd}.%i.gz'.
+01:18:05,897 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52e071de - Roll-over at midnight.
+01:18:05,900 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52e071de - Setting initial period to Sun Jan 13 00:58:24 CST 2019
+01:18:05,915 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /var/folders/lh/tqlx1qms7xbdpmgg4tf_jvz00000gn/T//apollo-assembly.log
+01:18:05,915 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/var/folders/lh/tqlx1qms7xbdpmgg4tf_jvz00000gn/T//apollo-assembly.log]
+01:18:05,917 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@31ce528a - Adding [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+01:18:05,917 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@78076c96 - URL [jar:file:/Users/xiongcaesar/IdeaProjects/apollo-build-scripts/portal/apollo-portal.jar!/lib/spring-boot-2.0.5.RELEASE.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+01:18:05,918 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+01:18:05,920 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+01:18:05,920 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+01:18:05,924 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+01:18:05,924 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+01:18:05,924 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+01:18:05,924 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+01:18:05,925 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1140d4c8 - Registering current configuration as safe fallback point
+
+2019-01-13 01:18:07.744  INFO 67704 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@438e561: startup date [Sun Jan 13 01:18:07 CST 2019]; root of context hierarchy
+2019-01-13 01:18:08.149  INFO 67704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-13 01:18:08.280  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$41d1b2ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+     _                _ _
+    / \   _ __   ___ | | | ___
+   / _ \ | '_ \ / _ \| | |/ _ \
+  / ___ \| |_) | (_) | | | (_) |
+ /_/   \_\ .__/ \___/|_|_|\___/
+         |_|
+
+:: Spring Boot ::  (v2.0.5.RELEASE)
+
+2019-01-13 01:18:08.684  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : The following profiles are active: github,auth
+2019-01-13 01:18:08.736  INFO 67704 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b: startup date [Sun Jan 13 01:18:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@438e561
+2019-01-13 01:18:10.216  INFO 67704 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85e1db61-f5f5-304a-a42a-4b9b032ad433
+2019-01-13 01:18:10.275  INFO 67704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-13 01:18:10.538  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$41d1b2ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:10.614  WARN 67704 --- [           main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2019-01-13 01:18:10.619  WARN 67704 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-01-13 01:18:10.620  INFO 67704 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-13 01:18:10.628  WARN 67704 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-01-13 01:18:10.629  INFO 67704 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-13 01:18:10.843  INFO 67704 --- [           main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2019-01-13 01:18:12.551  INFO 67704 --- [           main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b: startup date [Sun Jan 13 01:18:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@438e561] and template loader path [classpath:/templates/]
+2019-01-13 01:18:12.954  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-13 01:18:12.975  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-01-13 01:18:12.977  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-01-13 01:18:12.979  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-01-13 01:18:12.986  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-01-13 01:18:13.063  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-01-13 01:18:13.150  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=22c5a77b,type=ConfigurationPropertiesRebinder]
+2019-01-13 01:18:13.176  INFO 67704 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-01-13 01:18:13.208  INFO 67704 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-13 01:18:13.272  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-13 01:18:13.609  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-13 01:18:13.615  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-13 01:18:13.991  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-13 01:18:13.992  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-13 01:18:14.443  INFO 67704 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:18:14.486  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-13 01:18:14.486  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-13 01:18:14.486  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-13 01:18:14.487  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-13 01:18:14.487  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-13 01:18:14.487  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-13 01:18:14.487  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-13 01:18:15.042  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-13 01:18:15.044  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-13 01:18:15.048  INFO 67704 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-13 01:18:15.056  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1547313495055 with initial instances count: 0
+2019-01-13 01:18:15.075  INFO 67704 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application unknown with eureka with status UP
+2019-01-13 01:18:15.076  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313495076, current=UP, previous=STARTING]
+2019-01-13 01:18:15.080  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070: registering service...
+2019-01-13 01:18:15.164  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070 - registration status: 204
+2019-01-13 01:18:15.169  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : Started ApolloApplication in 9.048 seconds (JVM running for 10.059)
+2019-01-13 01:18:15.172  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : application-1 isActive: true
+     _                _ _
+    / \   _ __   ___ | | | ___
+   / _ \ | '_ \ / _ \| | |/ _ \
+  / ___ \| |_) | (_) | | | (_) |
+ /_/   \_\ .__/ \___/|_|_|\___/
+         |_|
+
+:: Spring Boot ::  (v2.0.5.RELEASE)
+
+2019-01-13 01:18:15.285  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : The following profiles are active: github,auth
+2019-01-13 01:18:15.294  INFO 67704 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8366e6: startup date [Sun Jan 13 01:18:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b
+2019-01-13 01:18:16.731  INFO 67704 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2019-01-13 01:18:16.858  INFO 67704 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ca6fff21-0bd1-308a-9004-67533e4b2e3d
+2019-01-13 01:18:16.905  INFO 67704 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-13 01:18:17.066  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25b7afb1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.286  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$be6577eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.301  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.304  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a6af5f8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.319  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e33a1a9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.330  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.375  INFO 67704 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$41d1b2ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-13 01:18:17.968  INFO 67704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-01-13 01:18:18.023  INFO 67704 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-13 01:18:18.023  INFO 67704 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-01-13 01:18:18.037  INFO 67704 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xiongcaesar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-01-13 01:18:18.212  INFO 67704 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-13 01:18:18.212  INFO 67704 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2918 ms
+2019-01-13 01:18:18.749  INFO 67704 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2019-01-13 01:18:19.344  INFO 67704 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-13 01:18:19.435  INFO 67704 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2019-01-13 01:18:19.472  INFO 67704 --- [ost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun Jan 13 01:18:19 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2019-01-13 01:18:19.630  INFO 67704 --- [ost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-01-13 01:18:19.633  INFO 67704 --- [ost-startStop-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-13 01:18:19.718  INFO 67704 --- [ost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-13 01:18:20.018  INFO 67704 --- [ost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-13 01:18:20.927  INFO 67704 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-13 01:18:21.518  INFO 67704 --- [ost-startStop-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : apollo.portal.envs = dev
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : organizations = [{"orgId":"TEST1","orgName":"样例部门1"},{"orgId":"TEST2","orgName":"样例部门2"}]. Old value = null
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : superAdmin = apollo. Old value = null
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : api.readTimeout = 10000. Old value = null
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : consumer.token.salt = someSalt. Old value = null
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : admin.createPrivateNamespace.switch = true. Old value = null
+2019-01-13 01:18:21.947  INFO 67704 --- [ost-startStop-1] c.c.f.a.p.s.PortalDBPropertySource       : Load config from DB : configView.memberOnly.envs = dev. Old value = null
+2019-01-13 01:18:22.281  INFO 67704 --- [ost-startStop-1] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2019-01-13 01:18:23.204  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-13 01:18:23.205  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-01-13 01:18:23.205  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-13 01:18:23.205  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-13 01:18:23.205  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-13 01:18:23.206  INFO 67704 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-13 01:18:23.206  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-01-13 01:18:23.206  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'encodingFilter' to urls: [/*]
+2019-01-13 01:18:23.206  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'consumerAuthenticationFilter' to urls: [/openapi/*]
+2019-01-13 01:18:23.206  INFO 67704 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-01-13 01:18:23.485  INFO 67704 --- [erviceLocator-1] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2019-01-13 01:18:24.482 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:172)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:90)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:56)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:127)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:103)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-01-13 01:18:24.482 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed for 1 times which less than down threshold. down threshold:2, env: DEV, meta server address: http://localhost:8080
+2019-01-13 01:18:24.721  INFO 67704 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29839092, org.springframework.security.web.context.SecurityContextPersistenceFilter@527a300b, org.springframework.security.web.header.HeaderWriterFilter@125a5693, org.springframework.security.web.authentication.logout.LogoutFilter@3a0d2d34, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72b923fb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25ccb22d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b0f9c15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12f5b0c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@641f893d, org.springframework.security.web.session.SessionManagementFilter@7979f026, org.springframework.security.web.access.ExceptionTranslationFilter@1e750b58, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35ce45c9]
+2019-01-13 01:18:24.789  WARN 67704 --- [           main] o.s.c.n.a.ArchaiusAutoConfiguration      : Netflix ConfigurationManager has already been installed, unable to re-install
+2019-01-13 01:18:24.896  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.012  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8366e6: startup date [Sun Jan 13 01:18:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b
+2019-01-13 01:18:25.081  WARN 67704 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-13 01:18:25.159  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/version]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getVersion()
+2019-01-13 01:18:25.160  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/server]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getServer()
+2019-01-13 01:18:25.161  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/app]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getApp()
+2019-01-13 01:18:25.161  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/net]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getNet()
+2019-01-13 01:18:25.162  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/commits],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.CommitDTO> com.ctrip.framework.apollo.portal.controller.CommitController.find(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.163  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace/count],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.Number> com.ctrip.framework.apollo.portal.controller.InstanceController.getInstanceCountByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.163  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace-and-releases-not-in],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByReleasesNotIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.163  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.164  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/instances/by-release],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.portal.controller.InstanceController.getByRelease(java.lang.String,long,int,int)
+2019-01-13 01:18:25.164  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.LockInfo com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLockInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.165  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceLockDTO com.ctrip.framework.apollo.portal.controller.NamespaceLockController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.167  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignAppRoleToUser(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.168  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeAppRoleFromUser(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.168  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/permissions/root],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasRootPermission()
+2019-01-13 01:18:25.168  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceEnvRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.168  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.removeNamespaceRoleFromUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.169  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.AppRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getAppRoles(java.lang.String)
+2019-01-13 01:18:25.169  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceRoles(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.169  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/role_users],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.NamespaceEnvRolesAssignedUsers com.ctrip.framework.apollo.portal.controller.PermissionController.getNamespaceEnvRoles(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.169  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.169  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/roles/{roleType}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.assignNamespaceEnvRoleToUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.170  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/initPermission],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.PermissionController.initAppPermission(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.171  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.171  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.171  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/permissions/{permissionType}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.PermissionCondition> com.ctrip.framework.apollo.portal.controller.PermissionController.hasPermission(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.173  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.update(java.lang.String,com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2019-01-13 01:18:25.174  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.load(java.lang.String)
+2019-01-13 01:18:25.174  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/envs/{env}],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.AppController.create(java.lang.String,com.ctrip.framework.apollo.common.entity.App)
+2019-01-13 01:18:25.174  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.App com.ctrip.framework.apollo.portal.controller.AppController.create(com.ctrip.framework.apollo.portal.entity.model.AppModel)
+2019-01-13 01:18:25.174  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/miss_envs],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.AppController.findMissEnvs(java.lang.String)
+2019-01-13 01:18:25.175  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.AppController.deleteApp(java.lang.String)
+2019-01-13 01:18:25.175  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/navtree],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<com.ctrip.framework.apollo.portal.entity.vo.EnvClusterInfo> com.ctrip.framework.apollo.portal.controller.AppController.nav(java.lang.String)
+2019-01-13 01:18:25.175  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findApps(java.lang.String)
+2019-01-13 01:18:25.175  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/by-owner],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.App> com.ctrip.framework.apollo.portal.controller.AppController.findAppsByOwner(java.lang.String,org.springframework.data.domain.Pageable)
+2019-01-13 01:18:25.176  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.core.enums.Env> com.ctrip.framework.apollo.portal.controller.EnvController.envs()
+2019-01-13 01:18:25.176  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ItemController.update(java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2019-01-13 01:18:25.176  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items/{itemId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)
+2019-01-13 01:18:25.176  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/namespaces/{namespaceName}/diff],methods=[POST],consumes=[application/json]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.ItemDiffs> com.ctrip.framework.apollo.portal.controller.ItemController.diff(com.ctrip.framework.apollo.portal.entity.model.NamespaceSyncModel)
+2019-01-13 01:18:25.176  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findBranchItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.177  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[PUT],consumes=[application/json]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.modifyItemsByText(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceTextModel)
+2019-01-13 01:18:25.177  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2019-01-13 01:18:25.177  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/item],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.portal.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2019-01-13 01:18:25.177  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.portal.controller.ItemController.findItems(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.177  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/organizations]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.vo.Organization> com.ctrip.framework.apollo.portal.controller.OrganizationController.loadOrganization()
+2019-01-13 01:18:25.178  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/{releaseId}/rollback],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.ReleaseController.rollback(java.lang.String,long)
+2019-01-13 01:18:25.178  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/active],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findActiveReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.178  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/all],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseBO> com.ctrip.framework.apollo.portal.controller.ReleaseController.findAllReleases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.178  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2019-01-13 01:18:25.178  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/releases/compare],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.ReleaseCompareResult com.ctrip.framework.apollo.portal.controller.ReleaseController.compareRelease(java.lang.String,long,long)
+2019-01-13 01:18:25.179  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2019-01-13 01:18:25.179  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sso_heartbeat],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.SsoHeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-13 01:18:25.179  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/logout],methods=[GET]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-01-13 01:18:25.179  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{userId}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getUserByUserId(java.lang.String)
+2019-01-13 01:18:25.180  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.UserInfo com.ctrip.framework.apollo.portal.controller.UserInfoController.getCurrentUserName()
+2019-01-13 01:18:25.180  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST]}" onto public void com.ctrip.framework.apollo.portal.controller.UserInfoController.createOrUpdateUser(com.ctrip.framework.apollo.portal.entity.po.UserPO)
+2019-01-13 01:18:25.180  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.UserInfo> com.ctrip.framework.apollo.portal.controller.UserInfoController.searchUsersByKeyword(java.lang.String,int,int)
+2019-01-13 01:18:25.180  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.createCluster(java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ClusterDTO)
+2019-01-13 01:18:25.180  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.ClusterController.deleteCluster(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.181  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.portal.controller.ClusterController.loadCluster(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.181  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.deleteFavorite(long)
+2019-01-13 01:18:25.181  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.Favorite com.ctrip.framework.apollo.portal.controller.FavoriteController.addFavorite(com.ctrip.framework.apollo.portal.entity.po.Favorite)
+2019-01-13 01:18:25.181  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.po.Favorite> com.ctrip.framework.apollo.portal.controller.FavoriteController.findFavorites(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-01-13 01:18:25.181  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favorites/{favoriteId}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.FavoriteController.toTop(long)
+2019-01-13 01:18:25.182  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/associated-public-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicNamespaceForAssociatedNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.183  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/publish_info],methods=[GET]}" onto public java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Boolean>> com.ctrip.framework.apollo.portal.controller.NamespaceController.getNamespacesPublishInfo(java.lang.String)
+2019-01-13 01:18:25.183  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.183  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.common.entity.AppNamespace com.ctrip.framework.apollo.portal.controller.NamespaceController.createAppNamespace(java.lang.String,boolean,com.ctrip.framework.apollo.common.entity.AppNamespace)
+2019-01-13 01:18:25.183  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/envs/{env}/appnamespaces/{publicNamespaceName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.NamespaceDTO> com.ctrip.framework.apollo.portal.controller.NamespaceController.getPublicAppNamespaceAllNamespaces(java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.183  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO> com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.184  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createNamespace(java.lang.String,java.util.List<com.ctrip.framework.apollo.portal.entity.model.NamespaceCreationModel>)
+2019-01-13 01:18:25.184  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.184  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.deleteAppNamespace(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.184  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appnamespaces/public],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.entity.AppNamespace> com.ctrip.framework.apollo.portal.controller.NamespaceController.findPublicAppNamespaces()
+2019-01-13 01:18:25.184  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.portal.controller.NamespaceController.createMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.185  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/missing-namespaces],methods=[GET]}" onto public com.ctrip.framework.apollo.common.http.MultiResponseEntity<java.lang.String> com.ctrip.framework.apollo.portal.controller.NamespaceController.findMissingNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.185  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.AppNamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceController.findAppNamespace(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.185  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.loadServerConfig(java.lang.String)
+2019-01-13 01:18:25.185  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/server/config],methods=[POST]}" onto public com.ctrip.framework.apollo.portal.entity.po.ServerConfig com.ctrip.framework.apollo.portal.controller.ServerConfigController.createOrUpdate(com.ctrip.framework.apollo.portal.entity.po.ServerConfig)
+2019-01-13 01:18:25.186  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.SystemInfo com.ctrip.framework.apollo.portal.controller.SystemInfoController.getSystemInfo()
+2019-01-13 01:18:25.186  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/system-info/health],methods=[GET]}" onto public org.springframework.boot.actuate.health.Health com.ctrip.framework.apollo.portal.controller.SystemInfoController.checkHealth(java.lang.String)
+2019-01-13 01:18:25.187  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/by-appId],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.getConsumerTokenByAppId(java.lang.String)
+2019-01-13 01:18:25.187  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers/{token}/assign-role],methods=[POST]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.entity.ConsumerRole> com.ctrip.framework.apollo.portal.controller.ConsumerController.assignNamespaceRoleToConsumer(java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.NamespaceDTO)
+2019-01-13 01:18:25.187  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/consumers],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.entity.ConsumerToken com.ctrip.framework.apollo.portal.controller.ConsumerController.createConsumer(com.ctrip.framework.apollo.openapi.entity.Consumer,java.util.Date)
+2019-01-13 01:18:25.188  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.portal.entity.model.NamespaceReleaseModel)
+2019-01-13 01:18:25.188  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.189  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO)
+2019-01-13 01:18:25.189  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.189  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.bo.NamespaceBO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.189  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.portal.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.190  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/page-settings],methods=[GET]}" onto public com.ctrip.framework.apollo.portal.entity.vo.PageSetting com.ctrip.framework.apollo.portal.controller.PageSettingController.getPageSetting()
+2019-01-13 01:18:25.190  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/envs/{env}/clusters/{clusterName}/namespaces/{namespaceName}/releases/histories],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.portal.entity.bo.ReleaseHistoryBO> com.ctrip.framework.apollo.portal.controller.ReleaseHistoryController.findReleaseHistoriesByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2019-01-13 01:18:25.190  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin],methods=[GET]}" onto public java.lang.String com.ctrip.framework.apollo.portal.controller.SignInController.login(java.lang.String,java.lang.String)
+2019-01-13 01:18:25.191  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.deleteItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.191  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.getItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.192  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.ItemController.updateItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,boolean,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.192  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenItemDTO com.ctrip.framework.apollo.openapi.v1.controller.ItemController.createItem(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenItemDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.192  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/envclusters],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenEnvClusterDTO> com.ctrip.framework.apollo.openapi.v1.controller.AppController.loadEnvClusterInfo(java.lang.String)
+2019-01-13 01:18:25.193  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.193  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.updateBranchRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.193  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenGrayReleaseRuleDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.getBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.194  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.findBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.194  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.194  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/merge],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.merge(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.195  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.195  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceReleaseDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.195  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/gray-del-releases],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.createGrayDelRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.openapi.dto.NamespaceGrayDelReleaseDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.195  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/latest],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenReleaseDTO com.ctrip.framework.apollo.openapi.v1.controller.ReleaseController.loadLatestActiveRelease(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.196  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO> com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.findNamespaces(java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.196  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.createNamespace(java.lang.String,com.ctrip.framework.apollo.openapi.dto.OpenAppNamespaceDTO,javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.196  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.loadNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.196  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/openapi/v1/envs/{env}/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.openapi.dto.OpenNamespaceLockDTO com.ctrip.framework.apollo.openapi.v1.controller.NamespaceController.getNamespaceLock(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-01-13 01:18:25.199  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-13 01:18:25.200  INFO 67704 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/vendor/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/scripts/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.263  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/styles/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.264  INFO 67704 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/views/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-13 01:18:25.286  INFO 67704 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2019-01-13 01:18:25.394  INFO 67704 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-01-13 01:18:26.217  INFO 67704 --- [           main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8366e6: startup date [Sun Jan 13 01:18:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b] and template loader path [classpath:/templates/]
+2019-01-13 01:18:26.218  INFO 67704 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-01-13 01:18:26.394  INFO 67704 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2019-01-13 01:18:26.435  INFO 67704 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-13 01:18:26.436  INFO 67704 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-13 01:18:26.846  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-01-13 01:18:26.847  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-13 01:18:26.851  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-01-13 01:18:26.853  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-01-13 01:18:26.861  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,context=1e8366e6,type=RefreshScope]
+2019-01-13 01:18:26.888  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1e8366e6,type=ConfigurationPropertiesRebinder]
+2019-01-13 01:18:26.895  INFO 67704 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-01-13 01:18:26.930  INFO 67704 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-01-13 01:18:26.938  INFO 67704 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-13 01:18:26.951  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-13 01:18:26.955  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-13 01:18:26.955  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-13 01:18:26.955  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-13 01:18:26.955  INFO 67704 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-13 01:18:27.026  INFO 67704 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-13 01:18:27.027  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-13 01:18:27.033  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-13 01:18:27.034  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-13 01:18:27.035  INFO 67704 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-13 01:18:27.036  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1547313507036 with initial instances count: 0
+2019-01-13 01:18:27.046  INFO 67704 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application unknown with eureka with status UP
+2019-01-13 01:18:27.046  INFO 67704 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313507046, current=UP, previous=STARTING]
+2019-01-13 01:18:27.047  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070: registering service...
+2019-01-13 01:18:27.054  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070 - registration status: 204
+2019-01-13 01:18:27.133  INFO 67704 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-01-13 01:18:27.134  INFO 67704 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2019-01-13 01:18:27.135  INFO 67704 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2019-01-13 01:18:27.136  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : Started ApolloApplication in 11.959 seconds (JVM running for 22.025)
+2019-01-13 01:18:27.138  INFO 67704 --- [           main] c.c.f.apollo.assembly.ApolloApplication  : application-1-1 isActive: true
+2019-01-13 01:18:30.366  INFO 67704 --- [nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-13 01:18:30.366  INFO 67704 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-13 01:18:30.399  INFO 67704 --- [nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2019-01-13 01:18:34.484 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:172)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:90)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:56)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:127)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:103)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-01-13 01:18:34.484 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down because health check failed for 2 times, which equals to down threshold. env: DEV, meta server address: http://localhost:8080
+2019-01-13 01:18:44.485 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env health check failed, maybe because of meta server down or configure wrong meta server address. env: DEV, meta server address: http://localhost:8080
+
+com.ctrip.framework.apollo.common.exception.ServiceException: No available admin server. Maybe because of meta server down or all admin server down. Meta server address: http://localhost:8080
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.getAdminServices(RetryableRestTemplate.java:172)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:90)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:56)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$HealthAPI.health(AdminServiceAPI.java:43)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.isUp(PortalSettings.java:127)
+	at com.ctrip.framework.apollo.portal.component.PortalSettings$HealthCheckTask.run(PortalSettings.java:103)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-01-13 01:18:44.485 ERROR 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env is down. env: DEV, failed times: 3, meta server address: http://localhost:8080
+2019-01-13 01:18:45.046  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-01-13 01:18:45.047  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-13 01:18:45.118  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-13 01:18:54.601  INFO 67704 --- [HealthChecker-1] c.c.f.a.portal.component.PortalSettings  : Env revived because env health check success. env: DEV
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-13 01:18:57.037  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-01-13 01:18:57.038  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-13 01:18:57.044  INFO 67704 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-13 01:19:14.493  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:19:27.034  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:20:14.495  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:20:27.046  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:21:14.503  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:21:27.047  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:21:59.259 ERROR 67704 --- [nio-8070-exec-9] c.c.f.a.p.c.RetryableRestTemplate        : Http request failed, uri: /apps/learning-app, method: GET
+
+org.springframework.web.client.HttpClientErrorException: 404 
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:94)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:79)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:730)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:688)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:644)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:296)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.doExecute(RetryableRestTemplate.java:190)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.execute(RetryableRestTemplate.java:95)
+	at com.ctrip.framework.apollo.portal.component.RetryableRestTemplate.get(RetryableRestTemplate.java:56)
+	at com.ctrip.framework.apollo.portal.api.AdminServiceAPI$AppAPI.loadApp(AdminServiceAPI.java:51)
+	at com.ctrip.framework.apollo.portal.service.AppService.load(AppService.java:76)
+	at com.ctrip.framework.apollo.portal.service.AppService$$FastClassBySpringCGLIB$$99928c13.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.service.AppService$$EnhancerBySpringCGLIB$$b578e569.load(<generated>)
+	at com.ctrip.framework.apollo.portal.controller.AppController.findMissEnvs(AppController.java:179)
+	at com.ctrip.framework.apollo.portal.controller.AppController$$FastClassBySpringCGLIB$$dc9562f1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.controller.AppController$$EnhancerBySpringCGLIB$$40dc7033.findMissEnvs(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-01-13 01:21:59.362 ERROR 67704 --- [io-8070-exec-10] .c.f.a.c.c.GlobalDefaultExceptionHandler : namespaces not exist
+
+com.ctrip.framework.apollo.common.exception.BadRequestException: namespaces not exist
+	at com.ctrip.framework.apollo.portal.service.NamespaceService.findNamespaceBOs(NamespaceService.java:116)
+	at com.ctrip.framework.apollo.portal.service.NamespaceService$$FastClassBySpringCGLIB$$52703059.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.service.NamespaceService$$EnhancerBySpringCGLIB$$d23fadfb.findNamespaceBOs(<generated>)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController.findNamespaces(NamespaceController.java:86)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController$$FastClassBySpringCGLIB$$e26eeeab.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.ctrip.framework.apollo.portal.controller.NamespaceController$$EnhancerBySpringCGLIB$$f43937a1.findNamespaces(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-01-13 01:21:59.373  WARN 67704 --- [io-8070-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ctrip.framework.apollo.common.exception.BadRequestException: namespaces not exist]
+2019-01-13 01:22:14.515  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:22:27.048  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:23:14.525  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:23:27.056  INFO 67704 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-13 01:23:43.892  INFO 67704 --- [       Thread-8] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b: startup date [Sun Jan 13 01:18:08 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@438e561
+2019-01-13 01:23:43.894  INFO 67704 --- [       Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application unknown with eureka with status DOWN
+2019-01-13 01:23:43.894  WARN 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313823894, current=DOWN, previous=UP]
+2019-01-13 01:23:43.894  INFO 67704 --- [       Thread-8] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8366e6: startup date [Sun Jan 13 01:18:15 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22c5a77b
+2019-01-13 01:23:43.894  WARN 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313823894, current=UP, previous=DOWN]
+2019-01-13 01:23:43.894  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070: registering service...
+2019-01-13 01:23:43.895  INFO 67704 --- [       Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application unknown with eureka with status DOWN
+2019-01-13 01:23:43.895  WARN 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313823895, current=DOWN, previous=UP]
+2019-01-13 01:23:43.897  WARN 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1547313823897, current=UP, previous=DOWN]
+2019-01-13 01:23:43.897  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070: registering service...
+2019-01-13 01:23:43.901  INFO 67704 --- [       Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-01-13 01:23:43.903  INFO 67704 --- [       Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-01-13 01:23:43.906  INFO 67704 --- [       Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-01-13 01:23:43.909  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070 - registration status: 204
+2019-01-13 01:23:43.910  INFO 67704 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070 - registration status: 204
+2019-01-13 01:23:43.929  INFO 67704 --- [       Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-13 01:23:43.931  INFO 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-01-13 01:23:43.937  INFO 67704 --- [       Thread-8] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-13 01:23:46.942  INFO 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-01-13 01:23:46.960  INFO 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UNKNOWN/192.168.31.202:8070 - deregister  status: 200
+2019-01-13 01:23:46.979  INFO 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-01-13 01:23:46.980  INFO 67704 --- [       Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-13 01:23:47.000  INFO 67704 --- [       Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-13 01:23:47.078  INFO 67704 --- [       Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2019-01-13 01:23:47.081  INFO 67704 --- [       Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-01-13 01:23:47.081  INFO 67704 --- [       Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2019-01-13 01:23:47.083  INFO 67704 --- [       Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-01-13 01:23:47.084  WARN 67704 --- [       Thread-8] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
